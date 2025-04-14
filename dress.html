@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<head>
+    <title>AKA shop</title>
+    <link rel="StyleSheet" href="dress.css">
+</head>
+<body>
+    <header>
+        <h1>Collections</h1>
+        <div class="cart">
+            <span id="cart-count">0</span> items in cart
+        </div>
+    </header><h1>Chudi Collection</h1>
+    <section class="dress-list">
+       
+        <div class="dress">
+            <img src="ch2.jpg" alt="Chudithar" class="dress-img">
+            <h2>Chudithar</h2>
+            <p>Cost: $1000</p>
+            <label for="size-chudi">Size:</label>
+            <select id="size-chudi">
+                <option value="">Select</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+            </select>
+
+            <button onclick="addToCart(1000,document.getElementById('size-chudi'))">Add to Cart</button>
+        </div>
+        <div class="dress">
+            <img src="ch3.jpg" alt="Net Chudi" class="dress-img">
+            <h2>Net Chudi</h2>
+            <p>Cost: $5000</p>
+            <label for="size-netchudi">Size:</label>
+            <select id="size-netchudi">
+                <option value="">Select</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+            </select>
+
+            <button onclick="addToCart(5000, document.getElementById('size-NetChudi'))">Add to Cart</button>
+        </div>
+        <div class="dress">
+            <img src="ch.jpg" alt="Chudi" class="dress-img">
+            <h2>Chudi</h2>
+            <p>Cost: $800</p>
+            <label for="size-chudi">Size:</label>
+            <select id="size-chudi">
+                <option value="">Select</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+            </select>
+
+            <button onclick="addToCart(800, document.getElementById('size-Chudi'))">Add to Cart</button>
+        </div>
+        <div class="dress">
+            <img src="ch4.jpg" alt="Umb Chudi" class="dress-img">
+            <h2>Umb Chudi</h2>
+            <p>Cost: $1000</p>
+            <label for="size-umbchudi">Size:</label>
+            <select id="size-umbchudi">
+                <option value="">Select</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+            </select>
+
+            <button onclick="addToCart(1000, document.getElementById('size-UmbChudi'))">Add to Cart</button>
+        </div>
+        </section>
+        <h1>Saree Collection</h1>
+        <section class="dress-list">
+            
+            <div class="dress">
+                <img src="Sa.jpg" alt="Saree" class="dress-img">
+                <h2>Saree</h2>
+                <p>Cost: $10000</p>
+                <label for="size-saree">Size:</label>
+                <select id="size-saree">
+                    <option value="">Select</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+
+                <button onclick="addToCart(10000, document.getElementById('size-Saree'))">Add to Cart</button>
+            </div>
+            <div class="dress">
+                <img src="sa2.jpg" alt="Net Saree" class="dress-img">
+                <h2>Net Saree</h2>
+                <p>Cost: $20000</p>
+                <label for="size-Net Saree">Size:</label>
+                <select id="size-Net Saree">
+                    <option value="">Select</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+
+                <button onclick="addToCart(20000, document.getElementById('size-Net Saree'))">Add to Cart</button>
+            </div>
+            <div class="dress">
+                <img src="sa3.jpg" alt="Saree" class="dress-img">
+                <h2>Saree</h2>
+                <p>Cost: $30000</p>
+                <label for="size-Saree">Size:</label>
+                <select id="size-Saree">
+                    <option value="">Select</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+
+                <button onclick="addToCart(30000, document.getElementById('size-Saree'))">Add to Cart</button>
+            </div>
+            <div class="dress">
+                <img src="sa4.jpg" alt="Silk Saree" class="dress-img">
+                <h2>Silk Saree</h2>
+                <p>Cost: $10000</p>
+                <label for="size-Silk Saree">Size:</label>
+                <select id="size-Silk Saree">
+                    <option value="">Select</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+
+                <button onclick="addToCart(10000, document.getElementById('size-Silk Saree'))">Add to Cart</button>
+            </div>
+       
+
+        </section>
+        <h1>Crop Top</h1>
+        <section class="dress-list">
+            <div class="dress">
+                <img src="t1.jpg" alt="Top" class="dress-img">
+                <h2>Top</h2>
+                <p>Cost: $100</p>
+                <label for="size-Top">Size:</label>
+                <select id="size-Top">
+                    <option value="">Select</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+
+                <button onclick="addToCart(100, document.getElementById('size-Top'))">Add to Cart</button>
+            </div>
+            <div class="dress">
+                <img src="t2.jpg" alt="Top" class="dress-img">
+                <h2>Top</h2>
+                <p>Cost: $500</p>
+                <button onclick="addToCart(500, document.getElementById('size-Top'))">Add to Cart</button>
+            </div>
+            <div class="dress">
+                <img src="t3.jpg" alt="Top" class="dress-img">
+                <h2>Top</h2>
+                <p>Cost: $700</p>
+                <label for="size-Top">Size:</label>
+                <select id="size-Top">
+                    <option value="">Select</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+
+                <button onclick="addToCart(800, document.getElementById('size-Top'))">Add to Cart</button>
+            </div>
+            <div class="dress">
+                <img src="t4.jpg" alt="Top" class="dress-img">
+                <h2>Top</h2>
+                <p>Cost: $400</p>
+                <label for="size-Top">Size:</label>
+                <select id="size-Top">
+                    <option value="">Select</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+
+                <button onclick="addToCart(800, document.getElementById('size-Top'))">Add to Cart</button>
+            </div>
+       
+
+        </section>
+        <h1>Kidswear</h1>
+        <section class="dress-list">
+            <div class="dress">
+                <img src="c1.jpg" alt="model" class="dress-img">
+                <h2>model</h2>
+                <p>Cost: $1000</p>
+                <label for="size-model">Size:</label>
+                <select id="size-model">
+                    <option value="">Select</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+
+                <button onclick="addToCart(1000, document.getElementById('size-model'))">Add to Cart</button>
+            </div>
+            <div class="dress">
+                <img src="c2.jpg" alt="model" class="dress-img">
+                <h2>model</h2>
+                <p>Cost: $2000</p>
+                <label for="size-model">Size:</label>
+                <select id="size-model">
+                    <option value="">Select</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+
+                <button onclick="addToCart(2000, document.getElementById('size-model'))">Add to Cart</button>
+            </div>
+            <div class="dress">
+                <img src="c3.jpg" alt="model" class="dress-img">
+                <h2>model</h2>
+                <p>Cost: $3000</p>
+                <label for="size-model">Size:</label>
+                <select id="size-model">
+                    <option value="">Select</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+                <!-- <button onclick="addToCart(3000)"?>Add to cart</button> -->
+
+                <button onclick="addToCart(3000, document.getElementById('size-model'))">Add to Cart</button>
+            </div>
+            <div class="dress">
+                <img src="c4.jpg" alt="model" class="dress-img">
+                <h2>model</h2>
+                <p>Cost: $1000</p>
+                <label for="size-model">Size:</label>
+                <select id="size-model">
+                    <option value="">Select</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+
+                <button onclick="addToCart(1000, document.getElementById('size-model'))">Add to Cart</button>
+            </div>
+       
+
+        </section>
+        <footer>
+            <button id="checkout-btn">Checkout</button>
+        </footer>
+
+<script>
+    
+    //  let cart = [];
+    // let totalCost = 0;
+
+    // function addToCart(itemName, cost, size) {
+    //     if (!size) {
+    //         alert("Please select a size before adding to the cart!");
+    //         return;
+    //     }
+
+    //     cart.push({ name: itemName, price: cost, size: size });
+    //     totalCost += cost;
+
+    //     document.getElementById("cart-count").innerText = cart.length;
+    //     document.getElementById("cart-total").innerText = $${ totalCost };
+
+    //     updateCartDisplay();
+    //     alert(${ itemName }(${ size }) added to cart! Total Cost: $${ totalCost });
+    // }
+
+    // function updateCartDisplay() {
+    //     let cartList = document.getElementById("cart-items");
+    //     cartList.innerHTML = "";
+
+    //     cart.forEach((item, index) => {
+    //         let listItem = document.createElement("li");
+    //         listItem.innerHTML = `${item.name} (Size: ${item.size}) - $${item.price} 
+    //         <button onclick="removeFromCart(${index})">Remove</button>`;
+    //         cartList.appendChild(listItem);
+    //     });
+    // }
+
+    // function removeFromCart(index) {
+    //     totalCost -= cart[index].price;
+    //     cart.splice(index, 1);
+
+    //     document.getElementById("cart-count").innerText = cart.length;
+    //     document.getElementById("cart-total").innerText = $${ totalCost };
+
+    //     updateCartDisplay();
+    // }
+
+    // function checkout() {
+    //     if (cart.length === 0) {
+    //         alert("Your cart is empty!");
+    //     } else {
+    //         alert(Proceeding to checkout.Total cost: $${ totalCost });
+    //         cart = [];
+    //         totalCost = 0;
+    //         document.getElementById("cart-count").innerText = 0;
+    //         document.getElementById("cart-total").innerText = "$0";
+    //         updateCartDisplay();
+    //     }
+    // }
+
+    // function clearCart() {
+    //     cart = [];
+    //     totalCost = 0;
+    //     document.getElementById("cart-count").innerText = 0;
+    //     document.getElementById("cart-total").innerText = "$0";
+    //     updateCartDisplay();
+    // }
+    let cartCount = 0;
+        let total = 0;
+
+
+        function addToCart(cost) {
+            cartCount++;
+            total += cost;
+            document.getElementById("cart-count").innerText = cartCount;
+            alert(`Dress added to cart! Total Cost: $${total}`);
+        }
+
+        document.getElementById('checkout-btn').addEventListener('click', function () {
+            if (cartCount === 0) {
+                alert('Your cart is empty!');
+            } else {
+                alert(`Proceeding to checkout.Total cost: ${total}`);
+            }
+        });
+
+</script>
+    
+</body>
+</html>
