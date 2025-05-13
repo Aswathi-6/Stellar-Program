@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafaf8;
+    margin: 0;
+    padding: 0;
+    background-image: url("ba.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-image: url("hd.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: cursive;
+    font-size: smaller;
+
+    color: rgba(111, 5, 5, 0.996);
+    padding: 1em;
+    text-align: center;
+    position:relative;
+}
+
+.cart {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+}
+
+.dress-list {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em 0;
+}
+
+.dress {
+    background-color: white;
+    padding: 1em;
+    border: 1px solid #ddd;
+    text-align: center;
+    width: 200px;
+}
+
+.dress-img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1em;
+}
+
+button {
+    background-color: #113e97;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #888821;
+}
+
+footer {
+    text-align: center;
+    margin: 2em 0;
+}
+
+#checkout-btn {
+    background-color: rgb(212, 22, 22);
+    padding: 1em 2em;
+    color:whitesmoke;
+    border: none;
+    cursor: pointer;
+}
+
+#checkout-btn:hover {
+    background-color: rgb(11, 107, 45);
+}
+h2{
+    text-align: center;
+    color: blueviolet;
+    background-color: burlywood;
+}
+h1{
+    text-align: center;
+    color: black;
+    background-color: white;
+} 
+.size{
+    text-align: left;
+    color: brown;
+}
